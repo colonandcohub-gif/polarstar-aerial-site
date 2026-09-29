@@ -39,3 +39,6 @@ footer{background:var(--navy);color:#b8c4d6;padding:32px 0;font-size:14px}
 footer strong{color:#fff}
 @media (max-width:480px){.btn{width:100%;text-align:center}.top a.call{padding:8px 10px;font-size:14px}}
 .towns{margin:18px 0 0;color:var(--muted);font-size:15px}
+.shot{margin:36px 0 0}
+.shot img{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.shot figcaption{margin-top:10px;color:#b8c4d6;font-size:14px}
