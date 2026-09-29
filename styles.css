@@ -59,3 +59,7 @@ footer strong{color:#fff}
 .qualifier{font-size:14px;color:var(--muted);margin:18px 0 24px;font-style:italic}
 .btns.center{justify-content:flex-start}
 .btn.dark{background:var(--navy);color:#fff}
+.gallery.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.gallery.two img{aspect-ratio:auto;object-fit:contain;height:auto}
+.gallery.two img{aspect-ratio:4/3;object-fit:cover}
+@media (min-width:900px){.samples{grid-template-columns:repeat(2,1fr)}}
